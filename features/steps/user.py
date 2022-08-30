@@ -4,7 +4,7 @@ from application import USERS
 
 @given('some users are in the system')
 def step_impl(context):
-    USERS.update({'jasonb': {'name': 'Jason Bourne'}})
+    USERS.update({'jasonb': {'name': 'Jason Bourn'}})
 
 @when(u'I retrieve the customer \'jasonb\'')
 def step_impl(context):
